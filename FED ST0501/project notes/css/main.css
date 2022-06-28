@@ -1,0 +1,66 @@
+.pbmex {
+    border-style: solid;
+    border-color: black;
+    padding: 30px;
+    position: relative;
+    width: fit-content;
+    float: left;
+    margin-top: 1em;
+}
+
+.pbm {
+    background-color: yellow;
+    border-style: solid;
+    border-color: black;
+    padding: 30px;
+    position: relative;
+    width: fit-content;
+    float: left;
+    clear: left;
+    margin: 1em;
+}
+
+#pbm1 {
+    background-color: red;
+    border-color:orange;
+    border-width: 30px;
+    border-style: solid;
+    padding: 30px;
+}
+
+#colourid {
+    width: fit-content;
+    outline: 2px solid black;
+    margin-left: 1em;
+    list-style: none;
+    padding: 0;
+}
+
+#red {
+    background-color: red;
+    padding: 5px;
+}
+
+#orange {
+    background-color: orange;
+    padding: 5px;
+}
+
+#yellow {
+    background-color: yellow;
+    padding: 5px;
+}
+
+#colour-explanation {
+    width: fit-content;
+    outline: 2px solid black;
+    margin-left: 1em;
+    list-style: none;
+    padding: 0;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+

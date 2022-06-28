@@ -1,0 +1,27 @@
+*Basics*
+Order 3X2:
+A = 
+columns |column
+(20     |7)  row
+(31     |9)  rwo
+(13     |10) row
+The above matrix is 3X2.
+In matrixes, the number MXN represents the numbers of columns in M and the number of rows in N.
+The element of a matrix is named xij, where i is the row, and j is the column of the matrix, and x is the refrence to the subject. (eg. the number 31 above is labelled a21)
+
+*Transpose of a matrix*
+The transpose of the above matrix is:
+        column  column  column  
+A^T =   (20     |31     |13) row
+        (7      |9      |10) row
+(A^T)^T just reverts the transposed matrix to it's original form
+
+*Definitions*
+Row vector          -   a one row matrix 
+Column vector       -   a one column matrix
+Zero matrix/    
+Zero null           -   a matrix which has all entries of 0
+Square matrix       -   a matrix with equal columns and rows
+Symemetric matrix   -   a matrix where for all entries, xij = xji
+Diagonal matrix     -   a square matrix where the top left to bottom right entries are not all zero, whilst the other elements are all zero
+Identity matrix     -   a diagonal matrix where all entries along the diagonal are 1

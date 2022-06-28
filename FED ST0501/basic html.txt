@@ -1,0 +1,97 @@
+html:5      -   Auto fast set up of HTML5 basic structure
+
+Document Head:
+head    -   Collection of metadata and info on website
+base    -   Specifies the document's location for use with resolving relative hypertext links
+link    -   Specifies an external resource that the document is connected to
+meta    -   Provides a generic list of metadata values such as search keywords, viewport properties, and the file's character encoding
+script  -   Provides programming code for program to be run within the document
+style   -   Defines the display styles used to render the document content
+title   -   Stores the document's title or name, usually displayed in the broswer title or browser tab
+
+Meta element:
+charset="encoding"          -   Specifies the character encoding used in the HTML document
+content="text"              -   Provides the value associated with the "http-equiv" or "name" attributes
+http-equiv="content-type|default-style|refresh      -   Provides an HTTP header for document's content, default style, or refresh interval (in seconds)
+name="text"                 -   Sets the name associated with the metadata
+
+Key elements:
+address     -   Marks contact info
+article     -   Marks self-contained compositions
+aside       -   Marks content that is related to the main article
+body        -   Contains the entire content of the document
+footer      -   Contains the closing content of an article/ section
+h1 - h6     -   Marks major to minor headings
+header      -   Contains opening content that introduces an article/ section
+section     -   Marks content that shares a common theme or purpose on the page
+
+Grouping elements:
+blockquote  -   Contains content that is quoted from another source, often with a citation and often indented on the page.
+div         -   Contains a generic grouping of elements within the document.
+dl          -   Marks a description list containing one or more dt elements with each followed by one or more dd elements.
+dt          -   Contains a single term from a description list.
+dd          -   Contains the description or definition associated with a term from a description list. (dl)
+figure      -   Contains an illustration, photo, diagram, or similar object that is cross-referenced elsewhere in the document.
+figcaption  -   Contains the caption associated with a figure.
+hr          -   Marks a thematic break such as a scene change or a transition to a new topic (often displayed as a horizontal rule)
+main        -   Marks the main content of the document or application; only one main element should be used in the document.
+ol          -   Contains an ordered list of items.
+ul          -   Contains an unorderly list of items.
+li          -   Contains a single item from an ordered or unordered list.
+p           -   Contains the text of a paragraph.
+pre         -   Contains a block of preformatted text in which line breaks and extra spaces in the code are retained (often displayed in a monospace font)
+
+Text elements:
+a           -   Marks content that acts as a hypertext link.
+abbr        -   Marks an abbreviation or an acronym.
+b           -   Indicates a span of text to which attention should be drawn (text usually bold)
+br          -   Represents a line break within the grouping element.
+cite        -   Marks a citation to a title or author of creative work (text usually appears in italic font)
+code        -   Marks content that represents computer code (text usually appears in a monospace font)
+data        -   Associates a data value with the marked text with the value attributes providing the value.
+dfn         -   Marks a defined term for which a definition is given elsewhere in the document.
+em          -   Indicates content that is emphasized or stressed (text usually appears in italics)
+i           -   Indicates a span of text that expresses an alternate voice or mood (text usually appears in italics)
+kbd         -   Marks text that represents user input, typically from a computer keyboard or a voice command.
+mark        -   Marks text that represents user input, typically from a computer keyboard or a voice command.
+q           -   Marks content that is quoted from another source.
+s           -   Marks content that is no longer accurate or relevant (text is usually struck through)
+samp        -   Marks text that represents the sample output from a computer program or application.
+small       -   Marks side comment (text usually in small print)
+span        -   Contains a generic run of text within the document.
+strong      -   Indicates content of strong importance or seriousness (text usually appears in bold)
+sub         -   Marks text that should be treated as a text subscript.
+sup         -   Marks text should be treated as a text subscript.
+time        -   Marks a time value or text string.
+u           -   Indicates text that appears stylistically different from normal text (text usually appears underlined)
+var         -   Marks text that is treated as a variable in a mathematical expression or computing program.
+wbr         -   Represents where a line break should occur, if needed, for a long text string.
+
+HTML embedded elements
+audio       -   Represents a sound clip or audio stream.
+canvas      -   Contains programming scripts used to construct bitmap images and graphics.
+embed       -   Contains general embedded content including application or interactive content.
+iframe      -   Contains content of an external web page or internet resource.
+img         -   Contains a graphic image retrieved from an image file.
+object      -   Contains general embedded content including application or interactive content.
+video       -   Represents a video clip or video stream with captions.
+
+Commonly used URL schemes:
+fax         -   A fax phone number.
+file        -   A document stored locally on a user's computer.
+ftp         -   A document stored on an FTP server.
+geo         -   A geophysical coordinate.
+http        -   A resource on the World Wide Web.
+https       -   A resource on the World Wide Web accessed over a secure encrypted connection.
+mailto      -   An email address.
+tel         -   A telephone number.
+sms         -   A mobile text message sent via the short message service.
+
+Attribute:
+href="url"          -   Provides the url of the hypertext link.
+target=(_blank|_parent|_self|_top)  -   Specifies where to open the linked document.
+download="filename" -   Indicates that the link should be downloaded as a file, where filename is the name give to the downloaded file.
+rel="type           -   Provides the relationship between the linked document and the current page.
+hreflang            -   Indicates the language of the linked document.
+type="mime-type"    -   Indicates the media type of the linked document.
+

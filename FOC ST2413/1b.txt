@@ -1,0 +1,92 @@
+1B
+
+ASCII       -   American Standard Code for Information Interchange
+
+Data:
+Data is stored on a computer as binary digits/ bits.
+1 bit = 0 or 1
+5V = 1bit
+0V = 0bit
+light = 1bit
+no light = 0bit
+1 Byte = 8 bits
+
+Functional units:
+The primary memory is:
+organized into words, normally 32 bits/ 8 bytes in size.
+A PC memory might have 4GB/ 2^2*2^30 bytes or more.
+Programs and their data must be in this memory to be executed.
+
+Cache memory:
+An adjunct to the main memory, fabricated on the processor chip.
+Much smaller and faster than the main memory.
+Holds sections of the program and data currently. frequently being executed.
+
+Processor:
+Logic circuits                          -   For performing arithmetic and logic operations on word-sized data operands.
+Timing and control circuits             -   For fetching program instructions and data from memory.
+Registers                               -   Holds one word of operand data.
+Arithmetic and Logic Unit (ALU)         -   Most computer operations are executed in the ALU of the processor. It also performs arithmetic or logic operations.
+Control Unit                            -   Memory, ALU, and I/ O units store and process information and perform I/ O operations. The Control Unit coordinates these operations.
+
+Address space is addressed by means of internal memory "segmentation".
+
+Computer:
+1) Accepts information in the form of programs and data through an input unit and stores it in the memory.
+2) Information stored in the memory is fetched under program control into an ALU, where it is processed
+3) Processed information leaves the computer through an output unit.
+4) All activities in the computer are directed by the control unit.
+
+Instruction cycle:
+A single cycle is also called the instruction cycle or machine cycle, consisting of Fetch, Decode, Execute, Memory Access, and Write Back phase.
+1) Fetch instructions and increment the program counter.
+2) Decode the instructions and read registers from the register file.
+3) Read or write memory data if the instruction involves a memory operand.
+4) Read or write memory data if the instruction involves a memory operand.
+5) Write the result into the destination register, if needed.
+
+Instructions and Programs:
+1) An instruction specifies an operation and the location of its data operands.
+2) A 32-bit word typically holds one encoded instruction.
+3) A sequence of instructions, executed one after another,, constitutes a program.
+4) Both a program and its data are stored in the main memory.
+
+Instruction types:
+Load            -   Read a data operand from memory or an input device into the processor.
+Store           -   Write a data operand from a processor register to memory or an output device.
+Operate         -   Perform an arithmetic or logic operation on data operands in processor registers.
+
+Processor components:
+Program Counter (PC)            -   Holds the memory address of the current instructions.
+Instruction Register (IR)       -   Holds the current instruction.
+General-Purpose Registers       -   Holds data and addresses.
+Control Circuits and ALU        -   Fetch and executes instructions.
+
+Fetching and Executing instructions:
+1) Send address to memory; Read
+2) Load instructions from memory into IR
+3) Increment PC to point to next instruction
+4) Send address LOC to memory; Read
+5) Load word from memory into addresses register
+
+PC: Program Counter
+A Program Counter is a register in a computer processor that contains the location of the instruction being executed at the current time.
+When an instruction is fetched, the program counter carries on to the next instruction queued.
+When a computer restarts or resets, its Program Counter reverts to 0
+
+I/O devices:
+An application program:
+Reads data      -   From an input device.
+Writes data     -   To an output screen.
+Senses          -   The readiness of an I/ O device in performing a transfer or data
+
+Performance:
+factors:
+1) Speed of electronic circuits in the processor
+2) Access times to the cache and main memory
+3) Design of the instruction set
+4) Number of operations that can be done at the same time (parallelism)
+Better material of transistors = more transistors per chip = instructions executed faster
+Multiple processing units can be fabricated on a single chip.
+A core is used for each processor.
+The term processor is used for a completed chip.

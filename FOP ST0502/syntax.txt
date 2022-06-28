@@ -1,0 +1,14 @@
+*Basics*
+console.log()           =   Logs the stuff in the parenthesis in your console
+var X                   =   Sets a variable of X that is intended to change. Normally starts with a lower case letter
+const X                 =   Sets a constant of X that is to be referenced but not changed or altered. Normally used for classes, and starts with a capital letter
+
+*console input*
+input.question()        =   Returns what the user has entered into the console. lib - readine-sync
+input.questionInt()     =   Returns an integer the user has entered into the console, and returns an error if anything else has been input. lib - readline-sync
+input.questionFloat()   =   Returns a float the user has enteed into the console, and returns an error if anything else has been input. lib - readline-sync
+
+*String slicing*
+text.slice()            =   Returns an extracted part of a string requested. Uses index 0
+
+

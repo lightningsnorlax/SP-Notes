@@ -1,0 +1,10 @@
+div.tree {
+    position: absolute;
+    left: 73.46%;
+    right: 13.69%;
+    top: 77.84%;
+    bottom: -20.79%;
+
+    background: #8FD8FC;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}

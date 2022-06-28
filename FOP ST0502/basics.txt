@@ -1,0 +1,53 @@
+*really basic*
+//      =   commented after the //. //This is a comment
+/**/    =   commented inbetween the /* and */. eg. /*This is a comment*/
+
+*Operators*:
++   =   Plus
+-   =   Minus
+*   =   Multiply
+/   =   Divide
+%   =   Remainder
+**  =   To the power of
+
+*Incremental/ Decremental operators*
+++var   =   Increases value of variable by 1 before operation
+var++   =   Increases value of variable by 1 after operation
+--var   =   Decreases value of variable by 1 before operation
+var--   =   Decreases value of variable by 1 after operation
+
+*Comparison operators*
+<   =   Less than
+<=  =   Less than or equal to
+>   =   Greater than
+>=  =   Greater or equal to
+==  =   Equal to
+!=  =   Not equal to
+
+*Boolean operators*
+!   =   Not
+&&  =   And
+||  =   Or
+
+*Data types*
+String      =   Anything in quotes ("") eg. "This is a string 123 @#$"
+Number      =   Integers or floats eg. 123 eg.123.456
+Boolean     =   True of False
+Null        =   Nothing eg. return Null (will return an empty value)
+Undefined   =   A value that is used that has not been defined. eg. before X has been given a value: X-1 = ERROR: X has not been defined/ X is an undefined value
+Array       =   An array of values, normally in a list or something similar. eg. ["string", 123, 123.456, True]
+
+*Conversion*
+String to Number    =   converts a string to a number(float or integer depending)(will only convert if the string only contains numerical values, and will give an error otherwise) eg. integer(X) - for whole numbers/ parseFloat(X) - for decimals
+
+*Errors*
+Syntax  =   You typed something wrong, whether it is an invalid operator, or variable/constant errors. Normally, the text editors auto debugger will identify this error
+Runtime =   When requests take too long/ time out/ is stuck in an infinite loop. Normally due to a logic error as well
+Logic   =   You dun cucked up, something you wrote in your code is in correct syntax, but you wrote it in a way to make it screw itself and give you what you do not want. THE HARDEST ERROR TO FIX
+
+*Indexing*
+Java Script uses index 0.
+"HelloWorld"
+ 0123456789
+So the letter H would have a string index of 0, and W would have a string index of 5
+
