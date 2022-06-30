@@ -1,5 +1,0 @@
-2:
-
-ASCII only stores 128 characters.
-Unicode can store 1,114,112 characters
-
